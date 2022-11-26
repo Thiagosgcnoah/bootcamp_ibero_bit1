@@ -1,0 +1,46 @@
+
+
+
+
+.barra{
+    background-color: rgb(85, 84, 84);
+    background-image: url(https://www.latiendadeldentista.com/blog/wp-content/uploads/2019/01/iStock-825514932-870x400.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.estiloOpciones{
+   list-style-type: none; 
+}
+.estiloOpciones li{
+    display: inline;
+}
+.estiloOpciones li button, #botonSesion{
+
+width: 160px;
+background: rgb(38, 37, 37);
+color: #ffff;
+font-weight: bold;
+padding: 15px;
+white-space: nowrap;
+border: none;
+cursor: pointer;
+}
+
+#botonSesion{
+width: 250px;
+border-radius: 15px;
+margin-top: 15px;
+}
+.text1{
+    text-align: center;
+    margin: 5% 150px;
+}
+.imgSlider{
+    width: 100%;
+}

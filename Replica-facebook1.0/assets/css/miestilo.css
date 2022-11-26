@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#EFF2F5;
+    
+}
+
+.margen{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.border{
+    border-radius: 8px;
+    background: #fffafa;
+    box-shadow:  20px 20px 87px #a3a0a0,
+                 -20px -20px 87px #ffffff;
+}
+
+.cuenta{
+    background-color:#35A420 ;
+}
+
+.cuenta:hover{
+    background-color: #35A420;
+}
+
+.textocuenta{
+   transform: translateX(55px);
+   font-size: 14px;
+   padding-top: 30px;
+   width: 380px;
+}
+
+.divfecebook{
+    margin-top: 145px;
+    font-size: 28px;
+
+}
+
+.wfacebook{
+    width: 301.06px;
+    height: 106px;
+}
+
+.lista-idiomas{
+    list-style: none;
+    
+}
+
+.lista-idiomas li{
+    padding: 0px 8px;
+    font-size: 12px;
+    color: #73738C;
+}
+
+.lista-opciones{
+    list-style: none;
+}
+
+.lista-opciones li{  
+    padding: 0px 8px;
+    font-size: 12px;
+    color: #73738C;
+}
+
+.meta{
+    font-size: 11px;
+}
