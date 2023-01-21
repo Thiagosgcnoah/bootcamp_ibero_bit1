@@ -11,18 +11,21 @@
 
 <body>
     <section class="container ">
-        <form class="row g-3 my-5">
+        <form class="row g-3 my-5" id="formularioPepe">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4">
+                <span id="mensajeErrorCorreo"></span>
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Password</label>
                 <input type="password" class="form-control" id="inputPassword4">
+                <span id="mensajeErrorPassword"></span>
             </div>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                <span id="mensajeErrorAddress"></span>
             </div>
             <div class="col-12">
                 <label for="inputAddress2" class="form-label">Address 2</label>
@@ -31,11 +34,12 @@
             <div class="col-md-6">
                 <label for="inputCity" class="form-label">City</label>
                 <input type="text" class="form-control" id="inputCity">
+                <span id="mensajeErrorCity"></span>
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">State</label>
                 <select id="inputState" class="form-select">
-                    <option selected>Departamento</option>
+                    <option selected value="">Departamento</option>
                     <option value="Amazonas">Amazonas</option>
                     <option value="Antioquia">Antioquia</option>
                     <option value="Arauca">Arauca</option>
@@ -69,17 +73,20 @@
                     <option value="Vaupés">Vaupés</option>
                     <option value="Vichada">Vichada</option>
                 </select>
+                <span id="mensajeErrorState"></span>
             </div>
             <div class="col-md-2">
                 <label for="inputZip" class="form-label">Zip</label>
                 <input type="text" class="form-control" id="inputZip">
+                <span id="mensajeErrorZip"></span>
             </div>
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
                     <label class="form-check-label" for="gridCheck">
                         Check me out
-                    </label>
+                    </label> <br>
+                    <span id="mensajeErrorCheck"></span>
                 </div>
             </div>
             <div class="col-12">
