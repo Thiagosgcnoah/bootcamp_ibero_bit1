@@ -56,6 +56,15 @@ function radio() {
 }
 
 //*************************************Ejercicio 4********************************/
+ let menu_restaurante = [
+    "spaguetir", "coca cola", "browies marihuanos", "mateada fresa"
+ ]
+ 
+ let precio_menu = [15000, 2500,3000,8500]
+
+
+
+
 //*************************************Ejercicio 5********************************/
 let NumeroUsuario = document.getElementById('numero')
 let span = document.getElementById('tabla')
