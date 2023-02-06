@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { BodyComponent } from './components/body/body.component';
+import { TiendaGatosComponent } from './components/tienda-gatos/tienda-gatos.component';
+import { TiendaPerrosComponent } from './components/tienda-perros/tienda-perros.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
-    NavbarComponent
+    NavbarComponent,
+    BodyComponent,
+    TiendaGatosComponent,
+    TiendaPerrosComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
