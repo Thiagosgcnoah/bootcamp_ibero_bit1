@@ -9,6 +9,7 @@ import { BodyComponent } from './components/body/body.component';
 import { TiendaGatosComponent } from './components/tienda-gatos/tienda-gatos.component';
 import { TiendaPerrosComponent } from './components/tienda-perros/tienda-perros.component';
 import { ErrorComponent } from './components/error/error.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ErrorComponent } from './components/error/error.component';
     BodyComponent,
     TiendaGatosComponent,
     TiendaPerrosComponent,
-    ErrorComponent
+    ErrorComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
